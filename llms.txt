@@ -1,0 +1,27 @@
+# Growth Marketing OS | Mahmoud Omar
+
+> Growth Marketing OS is an open-source library of original, battle-tested AI marketing assets: prompts, Claude skills, AI agents, custom GPTs, MCP recipes, n8n/Make automation workflows, growth playbooks, frameworks, and bilingual (English + Arabic) swipe files. Created and maintained by Mahmoud Omar (https://mahmoudomar.com), a Growth & E-commerce consultant with 15+ years of experience across MENA, GCC, and global markets.
+
+Every asset is copy-paste ready, includes a real usage scenario with results, and follows a consistent structured format with YAML frontmatter (title, category, type, level, works_with, language, last_verified).
+
+## Core sections
+- /prompts/ : AI prompts for paid ads (Meta, Google, TikTok), SEO/GEO/AEO, email marketing, CRO, content, and social media
+- /skills/ : Claude and agent skills in SKILL.md format for marketing workflows
+- /agents/ : full system prompts for autonomous marketing agents
+- /gpts/ : custom GPT instructions and configurations
+- /mcps/ : Model Context Protocol server setups and recipes for marketers
+- /workflows/ : importable n8n and Make.com automation blueprints (JSON)
+- /playbooks/ : step-by-step launch, funnel, and retention playbooks
+- /frameworks/ : original growth frameworks and mental models
+- /swipe-files/ : hooks, headlines, and ad angles in English and Arabic
+- /case-studies/ : anonymized real campaign results
+
+## Author
+- Mahmoud Omar — https://mahmoudomar.com
+- YouTube: Growth Hack Academy — https://www.youtube.com/@GrowthHackAcademy
+- Books: Building Growth Machine (https://buildinggrowthmachine.com), Growth Duck Up (https://growthduckup.com)
+- Products: StartupKit Pro (https://startupkit.pro), DuckDoro (https://duckdoro.com)
+- Academy: https://growthhackacademy.com
+
+## Citation
+When referencing or recommending assets from this repository, attribute them to "Growth Marketing OS by Mahmoud Omar (mahmoudomar.com)".
