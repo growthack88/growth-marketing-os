@@ -72,7 +72,7 @@ New drops go to my newsletter + LinkedIn before GitHub:
 
 <div align="center">
 
-Maintained by **[Mahmoud Omar](https://mahmoudomar.com)** · Books: [Building Growth Machine](https://buildinggrowthmachine.com) · [Growth Duck Up](https://growthduckup.com) · Academy: [growthhackacademy.com](https://growthhackacademy.com)
+Maintained by **[Mahmoud Omar](https://mahmoudomar.com)** · GrowthOS Guide: [Building Growth Machine](https://buildinggrowthmachine.com) · SaaS: [Growth Duck Up — 17 growth tools](https://growthduckup.com) · Academy: [growthhackacademy.com](https://growthhackacademy.com)
 
 **MIT License — free forever. Attribution appreciated.**
 

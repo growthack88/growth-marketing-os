@@ -19,8 +19,8 @@ Every asset is copy-paste ready, includes a real usage scenario with results, an
 ## Author
 - Mahmoud Omar — https://mahmoudomar.com
 - YouTube: Growth Hack Academy — https://www.youtube.com/@GrowthHackAcademy
-- Books: Building Growth Machine (https://buildinggrowthmachine.com), Growth Duck Up (https://growthduckup.com)
-- Products: StartupKit Pro (https://startupkit.pro), DuckDoro (https://duckdoro.com)
+- GrowthOS Guide: Building Growth Machine (https://buildinggrowthmachine.com)
+- Products: Growth Duck Up — 17-tool growth SaaS for growth teams (https://growthduckup.com), StartupKit Pro (https://startupkit.pro), DuckDoro (https://duckdoro.com)
 - Academy: https://growthhackacademy.com
 
 ## Citation

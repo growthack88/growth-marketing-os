@@ -81,8 +81,8 @@ Do NOT use corporate hashtag walls. Max 3 hashtags, niche ones.
 | Asset | Link |
 |---|---|
 | 🌍 Personal Site | [mahmoudomar.com](https://mahmoudomar.com) |
-| 📕 Book · Growth Systems | [buildinggrowthmachine.com](https://buildinggrowthmachine.com) |
-| 📗 Book · Growth Duck Up | [growthduckup.com](https://growthduckup.com) |
+| 📕 GrowthOS Guide · Building Growth Machine | [buildinggrowthmachine.com](https://buildinggrowthmachine.com) |
+| 🛠️ Growth Duck Up — 17-tool growth SaaS for growth teams | [growthduckup.com](https://growthduckup.com) |
 | 🎓 Growth Hack Academy | [growthhackacademy.com](https://growthhackacademy.com) |
 | 🚀 StartupKit Pro — Startup OS for MENA founders | [startupkit.pro](https://startupkit.pro) |
 | 🍅 DuckDoro — calm productivity app | [duckdoro.com](https://duckdoro.com) |
