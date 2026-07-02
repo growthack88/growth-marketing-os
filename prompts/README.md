@@ -22,6 +22,9 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [Landing Page CRO Teardown](cro/landing-page-cro-teardown.md) | CRO | EN |
 | [Abandoned Cart Recovery Sequence (COD & MENA)](email/abandoned-cart-recovery-sequence.md) | Email | Bilingual |
 | [Arabic LinkedIn Content Engine](social/arabic-linkedin-content-engine.md) | Social | Bilingual |
+| [Ad Angle Matrix](paid-ads/ad-angle-matrix.md) | Paid Ads | EN |
+| [YouTube Script Outline (Retention-First)](content/youtube-script-outline.md) | Content | Bilingual |
+| [Entity Schema Builder (JSON-LD)](seo/entity-schema-builder.md) | SEO · GEO | EN |
 
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 
