@@ -2,4 +2,9 @@
 
 Original, battle-tested assets. Every file follows the [master template](../templates/ASSET_TEMPLATE.md) and includes a real proof scenario.
 
+| Swipe file | What's inside | Language |
+|---|---|---|
+| [Bilingual Hook Bank](hooks/bilingual-hook-bank.md) | 30 ad & content hooks by psychological trigger | EN + AR |
+| [Arabic CTA Bank](ctas/arabic-cta-bank.md) | 20 CTA button + closing lines by intent stage | EN + AR |
+
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [Growth Hack Academy on YouTube](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)

@@ -11,6 +11,18 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | Content Marketing | [content/](content/) |
 | Social Media | [social/](social/) |
 
+## All prompts
+
+| Prompt | Category | Language |
+|---|---|---|
+| [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) | Paid Ads | EN |
+| [Google Ads Search Terms Audit](paid-ads/google-ads-search-terms-audit.md) | Paid Ads | EN |
+| [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md) | SEO · GEO | EN |
+| [llms.txt Generator](seo/llms-txt-generator.md) | SEO · GEO | EN |
+| [Landing Page CRO Teardown](cro/landing-page-cro-teardown.md) | CRO | EN |
+| [Abandoned Cart Recovery Sequence (COD & MENA)](email/abandoned-cart-recovery-sequence.md) | Email | Bilingual |
+| [Arabic LinkedIn Content Engine](social/arabic-linkedin-content-engine.md) | Social | Bilingual |
+
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [YouTube: Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)
