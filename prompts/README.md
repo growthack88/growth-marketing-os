@@ -35,6 +35,12 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [Content Repurposing Matrix](content/content-repurposing-matrix.md) | Content | Bilingual |
 | [Campaign Postmortem](paid-ads/campaign-postmortem.md) | Paid Ads | EN |
 | [Growth Experiment Designer](growth/growth-experiment-designer.md) | Growth & Offers | EN |
+| [Competitor Ads Teardown](paid-ads/competitor-ads-teardown.md) | Paid Ads | EN |
+| [Pricing Page Optimizer](cro/pricing-page-optimizer.md) | CRO | EN |
+| [Win-Back & Reactivation Sequence](email/winback-reactivation-sequence.md) | Email | Bilingual |
+| [Referral Program Designer](growth/referral-program-designer.md) | Growth & Offers | EN |
+| [AI Citation Optimizer](seo/ai-citation-optimizer.md) | SEO · GEO | EN |
+| [Case Study Writer](content/case-study-writer.md) | Content | Bilingual |
 
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 
