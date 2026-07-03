@@ -24,6 +24,8 @@ The Claude marketing-skills ecosystem is growing fast. These are the open-source
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | Deep single-purpose GEO/AI-search optimization skill | MIT |
 | [OpenClaudia/openclaudia-skills](https://github.com/OpenClaudia/openclaudia-skills) | Execution skills wired into live APIs — publishes and sends, not just advises | MIT |
 
+**Directories for discovering more:** [jmedia65/awesome-ai-marketing](https://github.com/jmedia65/awesome-ai-marketing) (MIT — AI marketing tools & prompt resources with honest when-to-use context) · [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) (MIT — 1,000+ agent skills indexed across domains).
+
 **What THIS repo's skills add that those don't:** the MENA/COD layer (delivery-rate economics, عامية register, WhatsApp commerce), sourced-benchmark discipline, and the bilingual voice — install both and they compose.
 
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [Growth Hack Academy on YouTube](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)
