@@ -28,6 +28,9 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [Entity Schema Builder (JSON-LD)](seo/entity-schema-builder.md) | SEO · GEO | EN |
 | [Offer Stack Builder](growth/offer-stack-builder.md) | Growth & Offers | EN |
 | [UGC Brief Generator](social/ugc-brief-generator.md) | Social | Bilingual |
+| [Lead Magnet Designer](content/lead-magnet-designer.md) | Content | EN |
+| [Welcome Sequence Builder](email/welcome-sequence-builder.md) | Email | Bilingual |
+| [Retargeting Ladder Builder](paid-ads/retargeting-ladder-builder.md) | Paid Ads | EN |
 
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 

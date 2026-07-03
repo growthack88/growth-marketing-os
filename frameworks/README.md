@@ -5,5 +5,6 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 | Framework | What it covers | Level |
 |---|---|---|
 | [The COD Profit Funnel](cod-profit-funnel.md) | Confirmation & delivery rate as the hidden profit levers in COD e-commerce | Intermediate |
+| [The Bilingual Content System](bilingual-content-system.md) | Run EN + AR marketing as one operation: asset tiers, register standard | Intermediate |
 
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [Growth Hack Academy on YouTube](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)
