@@ -31,6 +31,10 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [Lead Magnet Designer](content/lead-magnet-designer.md) | Content | EN |
 | [Welcome Sequence Builder](email/welcome-sequence-builder.md) | Email | Bilingual |
 | [Retargeting Ladder Builder](paid-ads/retargeting-ladder-builder.md) | Paid Ads | EN |
+| [Review Mining Copy Bank](cro/review-mining-copy-bank.md) | CRO | Bilingual |
+| [Content Repurposing Matrix](content/content-repurposing-matrix.md) | Content | Bilingual |
+| [Campaign Postmortem](paid-ads/campaign-postmortem.md) | Paid Ads | EN |
+| [Growth Experiment Designer](growth/growth-experiment-designer.md) | Growth & Offers | EN |
 
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 
