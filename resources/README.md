@@ -1,6 +1,6 @@
-# 📚 Community Resources (curated, MIT-licensed)
+# 📚 Community Resources (curated, openly licensed)
 
-Vendored copies of the best openly-licensed marketing resources — **not original work by Mahmoud Omar** — included under their original licenses with full attribution so the toolkit is complete in one clone. Each file carries its source, snapshot date, and license.
+Vendored copies of the best openly-licensed marketing resources — **not original work by Mahmoud Omar** — included under their original licenses (MIT, CC0) with full attribution so the toolkit is complete in one clone. Each file carries its source, snapshot date, and license.
 
 | Resource | What it is | Source |
 |---|---|---|
