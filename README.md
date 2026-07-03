@@ -36,7 +36,7 @@
 | [`agents/`](agents/) | Full system prompts for autonomous marketing agents |
 | [`gpts/`](gpts/) | Custom GPT instructions & configurations |
 | [`mcps/`](mcps/) | MCP server setups & recipes for marketers |
-| [`workflows/`](workflows/) | Importable n8n / Make automation blueprints (JSON) |
+| [`workflows/`](workflows/) | n8n / Make automation blueprints — node maps & specs; JSON exports ship as each flow goes live |
 | [`playbooks/`](playbooks/) | Step-by-step launch, funnel & retention playbooks |
 | [`frameworks/`](frameworks/) | Original growth frameworks & mental models |
 | [`swipe-files/`](swipe-files/) | Hooks, headlines & ad angles (EN + AR) |

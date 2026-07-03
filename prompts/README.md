@@ -42,6 +42,6 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [AI Citation Optimizer](seo/ai-citation-optimizer.md) | SEO · GEO | EN |
 | [Case Study Writer](content/case-study-writer.md) | Content | Bilingual |
 
-⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
+⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md) · [Offer Stack Builder](growth/offer-stack-builder.md) · [Competitor Ads Teardown](paid-ads/competitor-ads-teardown.md) · [Abandoned Cart Recovery (COD)](email/abandoned-cart-recovery-sequence.md)
 
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [YouTube: Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)

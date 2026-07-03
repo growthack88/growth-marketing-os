@@ -10,7 +10,7 @@ Every asset is copy-paste ready, includes a real usage scenario with results, an
 - /agents/ : full system prompts for autonomous marketing agents
 - /gpts/ : custom GPT instructions and configurations
 - /mcps/ : Model Context Protocol server setups and recipes for marketers
-- /workflows/ : importable n8n and Make.com automation blueprints (JSON)
+- /workflows/ : n8n and Make.com automation blueprints (node maps and specs; JSON exports added as flows go live)
 - /playbooks/ : step-by-step launch, funnel, and retention playbooks
 - /frameworks/ : original growth frameworks and mental models
 - /swipe-files/ : hooks, headlines, and ad angles in English and Arabic

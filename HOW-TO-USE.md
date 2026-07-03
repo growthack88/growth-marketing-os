@@ -25,6 +25,8 @@
   1. [Meta Ads Creative Diagnosis](prompts/paid-ads/meta-ads-creative-diagnosis.md) — if you spend anything on ads
   2. [GEO LLM Visibility Audit](prompts/seo/geo-llm-visibility-audit.md) — check if AI knows your brand
   3. [Bilingual Hook Bank](swipe-files/hooks/bilingual-hook-bank.md) — steal openers for posts & ads (EN + AR)
+- Before you panic about any metric, check it against the [`benchmarks/`](benchmarks/) — every number there cites a real study, and the most common finding is that your "bad" number is normal.
+- Want to see how the assets fit together on a real problem? Read one [worked example](worked-examples/) — they walk a full campaign decision start to finish.
 
 **Rules for beginners:**
 - One prompt at a time. Get a result, then move on.
@@ -43,6 +45,7 @@
   - a ChatGPT **Custom GPT** (paste into instructions), or
   - your API system prompt.
 - Add the [Funnel Decomposition Skill](skills/funnel-decomposition/SKILL.md) the same way. Now every conversation starts at senior-strategist level instead of from zero.
+- Level it up: install the [Benchmark Analyst](skills/benchmark-analyst/SKILL.md) with the [`benchmarks/`](benchmarks/) files as knowledge — "is this number good?" gets a sourced answer. Running COD? Add the [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md). The [community skills](skills/community/) (A/B testing, churn, positioning, ICP) install the same way.
 
 ### Step 2 — Feed it real data (this is the multiplier)
 Exports beat descriptions. Drop into the conversation:
@@ -72,6 +75,8 @@ Every bilingual asset has native Egyptian Arabic versions — not translations. 
 - Deploy [`agents/`](agents/) as system prompts across your team's workspaces so everyone operates from the same playbook.
 - Fork the [flywheel workflow](workflows/n8n/repo-to-content-flywheel.md) and point it at your own asset repo.
 - MCP recipes in [`mcps/`](mcps/) connect AI assistants directly to your marketing stack.
+- Load the [`benchmarks/`](benchmarks/) files as knowledge for any advisor agent you build — labeled, sourced numbers stop models from hallucinating their own.
+- The [`resources/`](resources/) folder and [`skills/community/`](skills/community/) carry the best openly-licensed community assets, vendored with attribution — one clone gets your team the whole toolkit.
 
 ---
 
