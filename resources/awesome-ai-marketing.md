@@ -317,4 +317,4 @@ Connect: [LinkedIn](https://linkedin.com/in/maxbraglia) | [Twitter/X](https://x.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE-awesome-ai-marketing.txt) file for details.
