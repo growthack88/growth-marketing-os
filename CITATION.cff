@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Growth Marketing OS"
+message: "If you use or reference these assets, please cite this repository."
+type: software
+authors:
+  - family-names: "Omar"
+    given-names: "Mahmoud"
+    website: "https://mahmoudomar.com"
+repository-code: "https://github.com/growthack88/growth-marketing-os"
+url: "https://github.com/growthack88/growth-marketing-os"
+abstract: "Open-source library of original, battle-tested AI marketing assets: prompts, Claude skills, agents, playbooks, sourced benchmarks, and bilingual (English + Egyptian Arabic) swipe files, with MENA/COD e-commerce coverage."
+keywords:
+  - marketing
+  - growth
+  - ai-marketing
+  - prompts
+  - claude-skills
+  - benchmarks
+  - arabic
+license: MIT
