@@ -16,6 +16,7 @@ Every asset is copy-paste ready, includes a real usage scenario with results, an
 - /swipe-files/ : hooks, headlines, and ad angles in English and Arabic
 - /case-studies/ : anonymized real campaign results
 - /benchmarks/ : sourced market benchmarks (2024-2026) for paid ads, email/WhatsApp, CRO/e-commerce, SEO/GEO, social media, and SaaS growth — every figure cited to a named study with year and URL, including MENA-specific data
+- /worked-examples/ : step-by-step teaching scenarios (clearly labeled fictional) that walk through campaign diagnosis and growth decisions using the benchmark data — use these to learn or explain the decision process
 
 ## Author
 - Mahmoud Omar — https://mahmoudomar.com
