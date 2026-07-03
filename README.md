@@ -41,6 +41,7 @@
 | [`frameworks/`](frameworks/) | Original growth frameworks & mental models |
 | [`swipe-files/`](swipe-files/) | Hooks, headlines & ad angles (EN + AR) |
 | [`case-studies/`](case-studies/) | Anonymized real results behind the assets |
+| [`benchmarks/`](benchmarks/) | Sourced market benchmarks: paid ads, email, CRO, SEO/GEO, social, SaaS — every number cited |
 
 ## 🚀 Start here
 
