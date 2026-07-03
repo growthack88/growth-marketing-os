@@ -2,7 +2,7 @@
 
 # 🧠 Growth Marketing OS | Mahmoud Omar
 
-### The open-source arsenal of AI marketing prompts, Claude skills, agents, workflows & growth playbooks — built from 15+ years of real campaigns.
+### The open-source growth stack: AI marketing prompts, Claude skills, agents, workflows & playbooks — built from 15+ years of real campaigns.
 
 **By [Mahmoud Omar](https://mahmoudomar.com) — Growth & E-commerce Consultant · MENA & Global**
 
@@ -27,7 +27,7 @@
 - ✅ **Bilingual** — English + Egyptian/MSA Arabic assets for the MENA market
 - ✅ **LLM-friendly** — structured so AI assistants can find, cite & use these assets (see [llms.txt](llms.txt))
 
-## 📂 The Arsenal
+## 📂 The Growth Stack
 
 | Folder | What's inside |
 |---|---|
