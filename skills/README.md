@@ -11,9 +11,11 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 | [Conversion Copywriter](conversion-copywriter/SKILL.md) | Direct-response copy in 5 modes: write, rewrite, audit, hook, teach — framework-chosen, objection-aware | EN + AR aware |
 | [Performance Media Buyer](performance-media-buyer/SKILL.md) | Paid media in 6 modes: plan, build, optimize, diagnose, audit, report — across Meta/Google/TikTok/LinkedIn | EN |
 
-## 🌍 Community skills worth installing alongside these
+## 🌍 Community skills — now included in this repo
 
-The Claude marketing-skills ecosystem is growing fast. These are the open-source collections we rate (licenses verified) — different focus than this repo, and they compose well with it:
+The best MIT-licensed community skills are curated INTO [`community/`](community/) with full attribution: [Marketing Psychology](community/marketing-psychology/SKILL.md) · [A/B Testing](community/ab-testing/SKILL.md) · [Programmatic SEO](community/programmatic-seo/SKILL.md) · [Churn Prevention](community/churn-prevention/SKILL.md) · [Onboarding](community/onboarding/SKILL.md) — all from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT). See [community/README.md](community/README.md) for the attribution and licensing details.
+
+More open-source collections we rate (licenses verified) — different focus, compose well with this repo:
 
 | Repo | What it's strong at | License |
 |---|---|---|
