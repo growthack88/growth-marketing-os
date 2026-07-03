@@ -12,6 +12,7 @@ Market benchmarks across every marketing discipline — **every figure cited to 
 | [SEO & GEO](seo-geo-benchmarks.md) | CTR by position · AI Overview impact · zero-click · LLM citations · Arabic gap | Ahrefs, Seer, Semrush, SparkToro, Princeton GEO paper |
 | [Social Media](social-media-benchmarks.md) | Engagement by platform · LinkedIn formats · video completion · Egypt/KSA/UAE data | Rival IQ, Socialinsider, van der Blom, DataReportal |
 | [Growth & SaaS](growth-saas-benchmarks.md) | Trial→paid by model · activation · churn/NRR by segment · LTV:CAC · pricing mix | Growth Unhinged, RevenueCat, ChartMogul, SaaS Capital |
+| [Content Marketing](content-marketing-benchmarks.md) | Blogging effort vs results · newsletter economics · influencer tiers & pricing · podcasts · webinars · GCC creator market | Orbit Media, CMI, beehiiv, Edison, ON24, Wistia, HypeAuditor |
 
 **Freshness:** each file carries a `last_verified` date. Benchmarks in AI-era search and paid social move monthly — check the date before quoting.
 
