@@ -10,6 +10,7 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | CRO & Landing Pages | [cro/](cro/) |
 | Content Marketing | [content/](content/) |
 | Social Media | [social/](social/) |
+| Growth & Offers | [growth/](growth/) |
 
 ## All prompts
 
@@ -25,6 +26,8 @@ Battle-tested AI prompts for real marketing work. Every prompt is copy-paste rea
 | [Ad Angle Matrix](paid-ads/ad-angle-matrix.md) | Paid Ads | EN |
 | [YouTube Script Outline (Retention-First)](content/youtube-script-outline.md) | Content | Bilingual |
 | [Entity Schema Builder (JSON-LD)](seo/entity-schema-builder.md) | SEO · GEO | EN |
+| [Offer Stack Builder](growth/offer-stack-builder.md) | Growth & Offers | EN |
+| [UGC Brief Generator](social/ugc-brief-generator.md) | Social | Bilingual |
 
 ⭐ Featured: [Meta Ads Creative Diagnosis](paid-ads/meta-ads-creative-diagnosis.md) · [GEO LLM Visibility Audit](seo/geo-llm-visibility-audit.md)
 

@@ -5,7 +5,7 @@
 Every asset is copy-paste ready, includes a real usage scenario with results, and follows a consistent structured format with YAML frontmatter (title, category, type, level, works_with, language, last_verified).
 
 ## Core sections
-- /prompts/ : AI prompts for paid ads (Meta, Google, TikTok), SEO/GEO/AEO, email marketing, CRO, content, and social media
+- /prompts/ : AI prompts for paid ads (Meta, Google, TikTok), SEO/GEO/AEO, email marketing, CRO, content, social media, and growth/offer construction
 - /skills/ : Claude and agent skills in SKILL.md format for marketing workflows
 - /agents/ : full system prompts for autonomous marketing agents
 - /gpts/ : custom GPT instructions and configurations
