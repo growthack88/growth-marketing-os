@@ -1,0 +1,26 @@
+{
+  "name": "growth-marketing-os",
+  "owner": {
+    "name": "Mahmoud Omar",
+    "url": "https://mahmoudomar.com"
+  },
+  "metadata": {
+    "description": "Growth Marketing OS by Mahmoud Omar: bilingual (EN + AR) marketing skills built for MENA and global markets.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mena-ads",
+      "description": "MENA Ads Command Center: audits, media plans, scale/kill decisions, creative and Arabic ad copy, tracking and COD real-ROAS maths across Meta, Google, TikTok, Snapchat and more, built for the Arab market.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/mena-ads",
+        "./skills/cod-operations-analyst",
+        "./skills/arabic-copy-localizer",
+        "./skills/performance-media-buyer",
+        "./skills/benchmark-analyst"
+      ]
+    }
+  ]
+}

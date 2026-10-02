@@ -45,6 +45,7 @@
   - a ChatGPT **Custom GPT** (paste into instructions), or
   - your API system prompt.
 - Add the [Funnel Decomposition Skill](skills/funnel-decomposition/SKILL.md) the same way. Now every conversation starts at senior-strategist level instead of from zero.
+- Running paid ads? Install the [MENA Ads Command Center](skills/mena-ads/README.md) — in Claude Code it's two commands (`/plugin marketplace add growthack88/growth-marketing-os` then `/plugin install mena-ads@growth-marketing-os`); in ChatGPT/Gemini use the [GPT config](gpts/mena-ads-gpt.md). Then type `audit` or "راجع حسابي".
 - Level it up: install the [Benchmark Analyst](skills/benchmark-analyst/SKILL.md) with the [`benchmarks/`](benchmarks/) files as knowledge — "is this number good?" gets a sourced answer. Running COD? Add the [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md). The [community skills](skills/community/) (A/B testing, churn, positioning, ICP) install the same way.
 
 ### Step 2 — Feed it real data (this is the multiplier)

@@ -7,6 +7,7 @@ Every asset is copy-paste ready, includes a real usage scenario with results, an
 ## Core sections
 - /prompts/ : AI prompts for paid ads (Meta, Google, TikTok), SEO/GEO/AEO, email marketing, CRO, content, social media, and growth/offer construction
 - /skills/ : Claude and agent skills in SKILL.md format for marketing workflows
+- /skills/mena-ads/ : MENA Ads Command Center — complete paid-ads skill for the Arab world (Egypt, KSA, UAE, GCC): scored ad-account audits (0-100), media plans, scale/hold/reduce/pause rules, creative and Arabic ad copy by dialect, Pixel/CAPI tracking, COD delivered-order ROAS, Snapchat and Click-to-WhatsApp playbooks, Ramadan/White Friday calendar, regional compliance; Meta, Google, TikTok, Snapchat, LinkedIn, X; installable as a Claude Code plugin (/plugin marketplace add growthack88/growth-marketing-os) and portable to ChatGPT/Gemini via /gpts/mena-ads-gpt.md
 - /agents/ : full system prompts for autonomous marketing agents
 - /gpts/ : custom GPT instructions and configurations
 - /mcps/ : Model Context Protocol server setups and recipes for marketers

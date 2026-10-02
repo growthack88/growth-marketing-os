@@ -4,6 +4,7 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 
 | Skill | What it does | Language |
 |---|---|---|
+| ⭐ [MENA Ads Command Center](mena-ads/README.md) | Complete paid-ads OS for the Arab world: 0-100 scored audits, media plans, scale/kill calls, creative + Arabic copy by dialect, tracking, COD real ROAS, Snapchat/CTWA, Ramadan planning — Meta, Google, TikTok, Snapchat, LinkedIn, X. Installs in Claude Code as a plugin; works in ChatGPT/Gemini via the [GPT config](../gpts/mena-ads-gpt.md) | EN + AR |
 | [Funnel Decomposition Analyst](funnel-decomposition/SKILL.md) | Quantified "why did sales drop?" diagnosis from raw numbers | EN |
 | [Arabic Copy Localizer](arabic-copy-localizer/SKILL.md) | EN marketing copy → native عامية with code-switching rules | EN + AR |
 | [Benchmark Analyst](benchmark-analyst/SKILL.md) | "Is this number good?" answered with panel-matched, sourced benchmarks | EN |

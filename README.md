@@ -51,6 +51,17 @@
 **Running campaigns already?** → The [🟡 Intermediate Path](HOW-TO-USE.md#-intermediate-path--i-run-campaignsfunnels-and-use-ai-weekly) shows you how to install these as systems, not one-off prompts.
 **Builder / team lead?** → [🔴 Advanced Path](HOW-TO-USE.md#-advanced-path--i-build-automations-agents-or-run-a-team) — frontmatter is machine-readable, wire it into your stack.
 
+### ⭐ New: MENA Ads Command Center · مركز قيادة الإعلانات
+
+A complete paid-ads skill built for the Arab world: scored audits, media plans, scale/kill decisions, Arabic ad copy by dialect, COD real-ROAS maths, Snapchat and Click-to-WhatsApp, Ramadan planning — across Meta, Google, TikTok, Snapchat, LinkedIn and X. Install in Claude Code with two commands:
+
+```
+/plugin marketplace add growthack88/growth-marketing-os
+/plugin install mena-ads@growth-marketing-os
+```
+
+Using ChatGPT, Gemini, Cursor or Codex instead? → [install guide for every AI](skills/mena-ads/README.md#install-pick-your-ai).
+
 Quick version:
 1. **Marketers:** browse [`prompts/`](prompts/) → copy → paste into Claude/ChatGPT → run.
 2. **Automation builders:** import a JSON from [`workflows/`](workflows/) into n8n/Make.
