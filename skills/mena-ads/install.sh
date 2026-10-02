@@ -26,10 +26,27 @@ case "${1:-}" in
 esac
 
 if [ "$mode" = "zip" ]; then
+  # claude.ai accepts descriptions up to 200 characters; Claude Code and the API
+  # accept 1,024. The zip carries a short description, the folder keeps the long one.
   out="$(pwd)/mena-ads.zip"
+  tmp="$(mktemp -d)"
+  cp -R "$SKILLS_ROOT/mena-ads" "$tmp/mena-ads"
+  rm -f "$tmp/mena-ads/install.sh"
+  python3 - "$tmp/mena-ads/SKILL.md" <<'PY'
+import re, sys
+path = sys.argv[1]
+text = open(path, encoding="utf-8").read()
+short = ("Paid-ads skill for the Arab world: audits, media plans, scale/kill calls, Arabic ad copy, "
+         "tracking and COD real ROAS on Meta, Google, TikTok, Snapchat. إعلانات وحملات")
+assert len(short) <= 200
+text = re.sub(r"description: >\n(?:  .*\n)+", f"description: \"{short}\"\n", text, count=1)
+open(path, "w", encoding="utf-8").write(text)
+PY
   rm -f "$out"
-  (cd "$SKILLS_ROOT" && zip -qr "$out" mena-ads -x "*/.DS_Store" "mena-ads/install.sh")
-  echo "Built $out — upload it in Claude.ai (Settings → Capabilities → Skills)."
+  (cd "$tmp" && zip -qr "$out" mena-ads -x "*/.DS_Store")
+  rm -rf "$tmp"
+  echo "Built $out — upload it in the Claude app: Customize → Skills → + → Create skill → Upload a skill"
+  echo "(turn on Settings → Capabilities → Code execution first)."
   exit 0
 fi
 

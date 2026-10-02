@@ -1,11 +1,11 @@
 ---
-title: "MENA Ads GPT — Custom GPT & Gemini Gem Config for Paid Ads in the Arab World"
+title: "MENA Ads GPT — ChatGPT Project & Gemini Gem Config for Paid Ads in the Arab World"
 author: "Mahmoud Omar"
 author_url: "https://mahmoudomar.com"
 category: "paid-ads"
 type: "gpt"
 level: "intermediate"
-works_with: "ChatGPT (GPT Builder / Projects), Gemini Gems, Claude Projects, Copilot, any assistant that takes instructions + files"
+works_with: "ChatGPT Projects (or a Custom GPT where you still can create one), Gemini Gems, Claude Projects, Copilot, any assistant that takes instructions + files"
 language: "Bilingual"
 last_verified: "2026-10-02"
 hook: "Your AI media buyer was trained on US accounts. It has never heard of a 70% delivery rate, a Saudi Snapchat budget, or Ramadan CPMs."
@@ -13,7 +13,7 @@ email_subject: "Paste-ready: an AI media buyer that knows the Arab market"
 short_pitch: "The MENA Ads Command Center packaged for ChatGPT and Gemini: paste the instructions, upload the reference files, and get scored ad audits, scale/kill calls, COD real-ROAS maths and Arabic ad copy in the right dialect."
 ---
 
-# MENA Ads GPT (Custom GPT / Gemini Gem configuration)
+# MENA Ads GPT (ChatGPT Project / Gemini Gem configuration)
 
 > The [MENA Ads Command Center](../skills/mena-ads/SKILL.md) skill, packaged for assistants that don't load SKILL.md folders: ChatGPT custom GPTs and Projects, Gemini Gems, Copilot, Perplexity Spaces, or any API system prompt.
 
@@ -28,10 +28,11 @@ This is the version for teams that live in ChatGPT or Gemini rather than Claude:
 ## 📋 The Configuration
 
 **Setup (5 minutes):**
-1. ChatGPT → Explore GPTs → Create → Configure (or Gemini → Gems → New Gem).
-2. Paste NAME, DESCRIPTION, INSTRUCTIONS and CONVERSATION STARTERS below.
-3. **Knowledge:** upload every file in [`skills/mena-ads/references/`](../skills/mena-ads/references/) (12 Markdown files) + [`scripts/ads_calc.py`](../skills/mena-ads/scripts/ads_calc.py).
-4. **Capabilities:** turn on Code Interpreter / Data Analysis (for the calculator and CSV exports). Web search is optional (useful for checking Ramadan dates and policy changes).
+1. **ChatGPT (personal):** create a Project → (•••) → **Project settings**, then paste the INSTRUCTIONS block below. OpenAI no longer lets personal accounts create new custom GPTs and is retiring them, so a Project is the durable home. Business/Enterprise workspaces can upload the full skill instead (Plugins → Skills; see the [skill README](../skills/mena-ads/README.md#3--chatgpt)).
+   **Gemini:** Gems → **New Gem** → paste the INSTRUCTIONS.
+2. **Files / Knowledge:** add every file in [`skills/mena-ads/references/`](../skills/mena-ads/references/) (12 Markdown files) + [`scripts/ads_calc.py`](../skills/mena-ads/scripts/ads_calc.py).
+3. In ChatGPT, keep data analysis (code) available for the calculator and CSV exports. Web search is optional; it helps with checking Ramadan dates and policy changes.
+4. NAME, DESCRIPTION and CONVERSATION STARTERS are for a Custom GPT if you still have access to the builder; in a Project or Gem, use the name and keep the starters as your first prompts.
 
 ```
 === NAME ===
@@ -95,7 +96,7 @@ Write 10 Snapchat hooks in Saudi dialect for my product
 
 - Upload real exports, not descriptions: Ads Manager CSVs (campaign/ad set/ad, last 30 + previous 30 days), Google search terms, and backend orders. The same instructions with real numbers give far sharper output.
 - For a client team, add a `client-context.md` knowledge file: markets, margins, delivery rates, brand voice, banned claims. The GPT will use it in every answer.
-- Gemini Gems and Claude Projects take the same instructions and files unchanged.
+- Gemini Gems, ChatGPT Projects and Claude Projects take the same instructions and files unchanged.
 - Want live data? See [data-connections](../skills/mena-ads/references/data-connections.md) for MCP options; ChatGPT connectors and Claude both support them.
 
 ## 🔗 Related assets

@@ -62,25 +62,29 @@ git clone https://github.com/growthack88/growth-marketing-os.git
 
 Use `--project` to install into the current project's `.claude/skills` instead.
 
-### 2 · Claude.ai and Claude Desktop
+### 2 · Claude app (claude.ai, Desktop)
 
-1. Build the zip: `./skills/mena-ads/install.sh --zip` (or download this folder and zip `mena-ads/`).
-2. Claude → **Settings → Capabilities → Skills → Upload skill** → choose `mena-ads.zip`. Keep code execution on so Claude can run the calculator.
-3. Ask: "audit my ads" and attach screenshots or CSV exports.
+1. Build the upload file: `./skills/mena-ads/install.sh --zip`. It makes `mena-ads.zip` with a description short enough for the app, which accepts up to 200 characters.
+2. Turn on **Settings → Capabilities → Code execution and file creation**. On Team/Enterprise, an owner enables skills under **Organization settings**.
+3. **Customize → Skills → + → Create skill → Upload a skill**, choose `mena-ads.zip`, then switch the skill on.
+4. Ask: "audit my ads" or "راجع حسابي", and attach screenshots or CSV exports.
 
-No skill upload on your plan? Create a **Project**, paste [SKILL.md](SKILL.md) into the project instructions, and upload the `references/` files as project knowledge.
+No skills on your plan? Create a **Project**, paste [SKILL.md](SKILL.md) into the project instructions, and upload the `references/` files as project knowledge.
 
-### 3 · ChatGPT (Custom GPT or Project)
+### 3 · ChatGPT
 
-Follow [gpts/mena-ads-gpt.md](../../gpts/mena-ads-gpt.md): paste the instructions, upload `references/*.md` as Knowledge, upload `scripts/ads_calc.py`, and turn on Code Interpreter. Open the GPT and type `audit` or `خطة رمضان`.
+- **Business / Enterprise / Edu workspaces:** **Plugins → Skills → Create → Upload from your computer**, and upload the same `mena-ads.zip`.
+- **Personal accounts (Free, Plus, Pro):** create a **Project**. Paste the instructions from [gpts/mena-ads-gpt.md](../../gpts/mena-ads-gpt.md) into Project settings, and add the `references/` files and `scripts/ads_calc.py` as project files. (OpenAI is retiring custom GPTs, so a Project is the durable option.)
 
-### 4 · Gemini (Gems), Copilot, Perplexity Spaces, any chat AI
+### 4 · Gemini, Copilot, Perplexity Spaces, any chat AI
 
-Create a Gem / custom assistant / space with the same instructions from [gpts/mena-ads-gpt.md](../../gpts/mena-ads-gpt.md) and attach the `references/` files. The skill is plain Markdown, so any assistant that accepts instructions and files can run it.
+- **Gemini app:** Gems → **New Gem**, paste the same instructions, and add the `references/` files under **Knowledge**.
+- **Gemini CLI:** `./skills/mena-ads/install.sh --dir ~/.gemini/skills` (or `.gemini/skills` inside a project).
+- Any other assistant that accepts instructions plus files can run it too; it's plain Markdown.
 
-### 5 · Codex, Gemini CLI, Cursor, OpenCode, and other coding agents
+### 5 · Codex, Cursor, OpenCode, and other coding agents
 
-Any agent that reads the Agent Skills (`SKILL.md`) format: copy the folder into that tool's skills directory:
+For any agent that reads the Agent Skills (`SKILL.md`) format, copy the folder into that tool's skills directory:
 
 ```bash
 ./skills/mena-ads/install.sh --dir /path/to/your/agent/skills
