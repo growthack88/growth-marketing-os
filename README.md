@@ -20,6 +20,7 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 - [What's inside](#whats-inside)
 - [Start here](#start-here)
 - [Featured: MENA Ads Command Center](#featured-mena-ads-command-center)
+- [Featured: Experiment Coach](#featured-experiment-coach)
 - [Asset catalog](#asset-catalog)
 - [Repository map](#repository-map)
 - [How every asset is built](#how-every-asset-is-built)
@@ -30,13 +31,13 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 
 ## What's inside
 
-**58 original assets**, plus **13 openly licensed community resources** curated in with full attribution.
+**60 original assets**, plus **13 openly licensed community resources** curated in with full attribution.
 
 | Type | Count | Best for |
 |---|---:|---|
 | [Prompts](prompts/) | 25 | One task, one answer — paste into Claude, ChatGPT or Gemini |
-| [Skills](skills/) | 7 original + 11 community | Repeatable workflows your AI assistant runs on demand |
-| [Agents](agents/) and [GPTs](gpts/) | 2 + 2 | A standing advisor set up once as a system prompt, Project or Custom GPT |
+| [Skills](skills/) | 8 original + 11 community | Repeatable workflows your AI assistant runs on demand |
+| [Agents](agents/) and [GPTs](gpts/) | 2 + 3 | A standing advisor set up once as a system prompt, Project or Custom GPT |
 | [Benchmarks](benchmarks/) | 7 | "Is this number good?" — every figure cited to a named study |
 | [Swipe files](swipe-files/) | 4 | Hooks, subject lines, CTAs and WhatsApp scripts in EN + AR |
 | [Playbooks](playbooks/) and [frameworks](frameworks/) | 3 + 2 | Step-by-step launches and the mental models behind them |
@@ -58,6 +59,7 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 | Run a cash-on-delivery store profitably | [COD Profit Funnel](frameworks/cod-profit-funnel.md) + [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md) |
 | Install systems instead of one-off prompts | [Intermediate path](HOW-TO-USE.md#-intermediate-path--i-run-campaignsfunnels-and-use-ai-weekly) |
 | Wire assets into your own stack | [Advanced path](HOW-TO-USE.md#-advanced-path--i-build-automations-agents-or-run-a-team) |
+| Validate an idea or run experiments just by asking your AI | [Experiment Coach](skills/experiment-coach/README.md) |
 
 ## Featured: MENA Ads Command Center
 
@@ -71,6 +73,19 @@ Install in Claude Code:
 ```
 
 Using ChatGPT, Gemini, Cursor or Codex? → [Install guide for every AI](skills/mena-ads/README.md#install-pick-your-ai) · [ChatGPT / Gemini config](gpts/mena-ads-gpt.md)
+
+## Featured: Experiment Coach
+
+**مدرب التجارب** is a growth-experiment lead that lives in your chat. Tell it "I have an idea, help me check it before I build" and it finds the riskiest assumption, writes the interview script, computes your pass line, sample and budget, writes the smoke-test page and ads, and judges the results against a rule written before the data. After launch it ranks experiments, sizes A/B tests and reads them out. It works with GrowthLab simulation exports and never invents benchmark numbers.
+
+Install in Claude Code:
+
+```
+/plugin marketplace add growthack88/growth-marketing-os
+/plugin install experiment-coach@growth-marketing-os
+```
+
+Using ChatGPT, Gemini or another AI? → [Install guide for every AI](skills/experiment-coach/README.md#install-pick-your-ai) · [ChatGPT / Gemini config](gpts/experiment-coach-gpt.md)
 
 ## Asset catalog
 
@@ -150,11 +165,12 @@ Level: 🟢 beginner · 🟡 intermediate · 🔴 advanced. Language: EN, or EN 
 </details>
 
 <details>
-<summary><b>Skills, agents and GPTs</b> (11 original)</summary>
+<summary><b>Skills, agents and GPTs</b> (13 original)</summary>
 
 | Asset | What it does | Lang |
 |---|---|:---:|
 | ⭐ [MENA Ads Command Center](skills/mena-ads/README.md) | Complete paid-ads skill for the Arab world: audits, media plans, creative, tracking, COD ROAS | EN + AR |
+| ⭐ [Experiment Coach](skills/experiment-coach/README.md) | Validates ideas before launch and runs experiments after it: interviews, smoke tests, pre-sales, sample sizes, A/B readouts, experiment log | EN + AR |
 | [Funnel Decomposition Analyst](skills/funnel-decomposition/SKILL.md) | Quantified "why did sales drop?" diagnosis from raw numbers | EN |
 | [Benchmark Analyst](skills/benchmark-analyst/SKILL.md) | Answers "is this number good?" with matched, sourced benchmarks | EN |
 | [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md) | Real revenue, return-to-origin cost and break-even delivery rate for COD stores | EN |
@@ -165,6 +181,7 @@ Level: 🟢 beginner · 🟡 intermediate · 🔴 advanced. Language: EN, or EN 
 | [CRO Teardown Agent](agents/cro-teardown-agent.md) | System prompt for a conversion-audit specialist | EN |
 | [Growth Strategist GPT](gpts/growth-strategist-gpt.md) | Ready-to-paste Custom GPT configuration for ChatGPT | EN |
 | [MENA Ads GPT](gpts/mena-ads-gpt.md) | MENA Ads Command Center as a ChatGPT Project or Gemini Gem | EN + AR |
+| [Experiment Coach GPT](gpts/experiment-coach-gpt.md) | Experiment Coach as a ChatGPT Project or Gemini Gem | EN + AR |
 
 Plus **11 community skills** (MIT) for A/B testing, churn, onboarding, positioning, ICP research, battlecards and more → [skills/community](skills/community/README.md).
 

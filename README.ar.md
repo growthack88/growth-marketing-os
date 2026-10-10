@@ -20,6 +20,7 @@
 - [ماذا ستجد هنا](#ماذا-ستجد-هنا)
 - [ابدأ من هنا](#ابدأ-من-هنا)
 - [مركز قيادة الإعلانات](#مركز-قيادة-الإعلانات)
+- [مدرب التجارب](#مدرب-التجارب)
 - [كتالوج الأصول](#كتالوج-الأصول)
 - [خريطة الريبو](#خريطة-الريبو)
 - [كيف يبنى كل أصل](#كيف-يبنى-كل-أصل)
@@ -30,13 +31,13 @@
 
 ## ماذا ستجد هنا
 
-في الريبو **58 أصلًا أصليًا**، ومعها **13 موردًا من المجتمع** مرخّصة ترخيصًا مفتوحًا ومضافة مع ذكر مصادرها كاملة.
+في الريبو **60 أصلًا أصليًا**، ومعها **13 موردًا من المجتمع** مرخّصة ترخيصًا مفتوحًا ومضافة مع ذكر مصادرها كاملة.
 
 | النوع | العدد | يناسب |
 |---|:---:|---|
 | [البرومبتات](prompts/) | 25 | مهمة واحدة وإجابة واحدة: انسخ والصق في Claude أو ChatGPT أو Gemini |
-| [الـ Skills](skills/) | 7 أصلية + 11 من المجتمع | سير عمل متكرر يشغّله مساعدك الذكي عند الطلب |
-| [الوكلاء](agents/) و[الـ GPTs](gpts/) | 2 + 2 | مستشار دائم تجهّزه مرة واحدة كـ System Prompt أو Project أو Custom GPT |
+| [الـ Skills](skills/) | 8 أصلية + 11 من المجتمع | سير عمل متكرر يشغّله مساعدك الذكي عند الطلب |
+| [الوكلاء](agents/) و[الـ GPTs](gpts/) | 2 + 3 | مستشار دائم تجهّزه مرة واحدة كـ System Prompt أو Project أو Custom GPT |
 | [الأرقام المرجعية](benchmarks/) | 7 | سؤال "هل هذا الرقم جيد؟"، وكل رقم منسوب لدراسة باسمها |
 | [ملفات الإلهام (Swipe Files)](swipe-files/) | 4 | افتتاحيات وعناوين إيميل وعبارات CTA ورسائل واتساب بالعربي والإنجليزي |
 | [الأدلة العملية](playbooks/) و[الأطر](frameworks/) | 3 + 2 | خطوات إطلاق عملية، والنماذج الذهنية التي تقف خلفها |
@@ -58,6 +59,7 @@
 | تدير متجر دفع عند الاستلام (COD) بربح حقيقي | [COD Profit Funnel](frameworks/cod-profit-funnel.md) + [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md) |
 | تبني أنظمة بدل برومبتات متفرقة | [المسار المتوسط](HOW-TO-USE.md#-intermediate-path--i-run-campaignsfunnels-and-use-ai-weekly) |
 | تربط الأصول بأدواتك وخط عملك | [المسار المتقدم](HOW-TO-USE.md#-advanced-path--i-build-automations-agents-or-run-a-team) |
+| تختبر فكرة أو تدير تجارب بمجرد ما تسأل الـ AI بتاعك | [مدرب التجارب](skills/experiment-coach/README.md) |
 
 > دليل الاستخدام [HOW-TO-USE.md](HOW-TO-USE.md) متاح بالإنجليزية حاليًا.
 
@@ -77,6 +79,23 @@
 </div>
 
 تستخدم ChatGPT أو Gemini أو Cursor أو Codex؟ ← [دليل التثبيت لكل أداة](skills/mena-ads/README.md#install-pick-your-ai) · [إعداد ChatGPT وGemini](gpts/mena-ads-gpt.md)
+
+## مدرب التجارب
+
+مدرب التجارب (**Experiment Coach**) مسؤول تجارب نمو موجود جوه الشات بتاعك. قوله "عندي فكرة وعايز أتأكد منها قبل ما أبنيها"، وهو يطلّع الافتراض الأخطر، ويكتب سكريبت المقابلات، ويحسب حد النجاح والعينة والميزانية من أرقامك، ويكتب صفحة الاختبار والإعلانات، ويحكم على النتيجة بقاعدة مكتوبة قبل البيانات. وبعد الإطلاق يرتّب التجارب، ويحسب اختبارات A/B ويقرأ نتايجها. بيشتغل كمان مع ملفات محاكاة GrowthLab، ومش بيخترع أرقام مرجعية.
+
+للتثبيت في Claude Code:
+
+<div dir="ltr">
+
+```
+/plugin marketplace add growthack88/growth-marketing-os
+/plugin install experiment-coach@growth-marketing-os
+```
+
+</div>
+
+تستخدم ChatGPT أو Gemini أو أداة تانية؟ ← [دليل التثبيت لكل أداة](skills/experiment-coach/README.md#install-pick-your-ai) · [إعداد ChatGPT وGemini](gpts/experiment-coach-gpt.md)
 
 ## كتالوج الأصول
 
@@ -156,11 +175,12 @@
 </details>
 
 <details>
-<summary><b>الـ Skills والوكلاء والـ GPTs</b> (11 أصلية)</summary>
+<summary><b>الـ Skills والوكلاء والـ GPTs</b> (13 أصلية)</summary>
 
 | الأصل | وظيفته | اللغة |
 |---|---|:---:|
 | ⭐ [MENA Ads Command Center](skills/mena-ads/README.md) | Skill كامل للإعلانات في العالم العربي: مراجعات، خطط ميديا، كريتيف، تتبّع، وعائد COD الحقيقي | عربي + إنجليزي |
+| ⭐ [Experiment Coach](skills/experiment-coach/README.md) | يختبر الأفكار قبل الإطلاق ويدير التجارب بعده: مقابلات، اختبار دخان، بيع مسبق، حجم العينة، قراءة نتايج A/B، وسجل تجارب | عربي + إنجليزي |
 | [Funnel Decomposition Analyst](skills/funnel-decomposition/SKILL.md) | تشخيص بالأرقام لسؤال "ليه المبيعات نزلت؟" من البيانات الخام | إنجليزي |
 | [Benchmark Analyst](skills/benchmark-analyst/SKILL.md) | يجاوب "هل الرقم ده كويس؟" بأرقام مرجعية مطابقة وموثّقة | إنجليزي |
 | [COD Operations Analyst](skills/cod-operations-analyst/SKILL.md) | الإيراد الحقيقي، وتكلفة المرتجعات، ونسبة التسليم اللي عندها تتعادل في متاجر COD | إنجليزي |
@@ -171,6 +191,7 @@
 | [CRO Teardown Agent](agents/cro-teardown-agent.md) | System Prompt لمتخصص مراجعة معدلات التحويل | إنجليزي |
 | [Growth Strategist GPT](gpts/growth-strategist-gpt.md) | إعداد Custom GPT جاهز للصق في ChatGPT | إنجليزي |
 | [MENA Ads GPT](gpts/mena-ads-gpt.md) | مركز قيادة الإعلانات كـ ChatGPT Project أو Gemini Gem | عربي + إنجليزي |
+| [Experiment Coach GPT](gpts/experiment-coach-gpt.md) | مدرب التجارب كـ ChatGPT Project أو Gemini Gem | عربي + إنجليزي |
 
 وكمان **11 Skill من المجتمع** (MIT) لاختبارات A/B، والحد من فقدان العملاء، والـ Onboarding، والتموضع، وأبحاث العميل المثالي، وبطاقات المنافسين وغيرها ← [skills/community](skills/community/README.md).
 

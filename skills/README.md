@@ -10,6 +10,7 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 | [Benchmark Analyst](benchmark-analyst/SKILL.md) | "Is this number good?" answered with panel-matched, sourced benchmarks | EN |
 | [COD Operations Analyst](cod-operations-analyst/SKILL.md) | Real revenue, RTO tax & break-even delivery rate for COD stores | EN |
 | [Conversion Copywriter](conversion-copywriter/SKILL.md) | Direct-response copy in 5 modes: write, rewrite, audit, hook, teach — framework-chosen, objection-aware | EN + AR aware |
+| ⭐ [Experiment Coach](experiment-coach/README.md) | Validate ideas before launch and run growth experiments after it: interviews, smoke tests, fake doors, pre-sales, pass lines from your economics, sample sizes, A/B readouts, experiment log. Works with GrowthLab exports | EN + AR |
 | [Performance Media Buyer](performance-media-buyer/SKILL.md) | Paid media in 6 modes: plan, build, optimize, diagnose, audit, report — across Meta/Google/TikTok/LinkedIn | EN |
 
 ## 🌍 Community skills — now included in this repo

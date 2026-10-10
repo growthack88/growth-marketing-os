@@ -21,6 +21,18 @@
         "./skills/performance-media-buyer",
         "./skills/benchmark-analyst"
       ]
+    },
+    {
+      "name": "experiment-coach",
+      "description": "Experiment Coach: validate ideas before launch (interviews, smoke tests, fake doors, pre-sales) and run growth experiments after it (pass lines, sample sizes, A/B readouts, experiment log), in Arabic and English, with no invented benchmarks.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/experiment-coach",
+        "./skills/benchmark-analyst",
+        "./skills/funnel-decomposition",
+        "./skills/community/ab-testing"
+      ]
     }
   ]
 }
