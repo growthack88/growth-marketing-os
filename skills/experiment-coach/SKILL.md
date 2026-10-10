@@ -101,6 +101,7 @@ python3 scripts/exp_calc.py presale --cost 30000 --price 900 --fees 0.03 --waitl
 - [Benchmark Analyst](../benchmark-analyst/SKILL.md): "is this number good?" against sourced benchmarks.
 - [Funnel Decomposition Analyst](../funnel-decomposition/SKILL.md): find the bottleneck before choosing what to test after launch.
 - [A/B Testing](../community/ab-testing/SKILL.md) (community, MIT): deeper test design once traffic allows.
+- **GrowthLab** (simulation skill or app, when installed): rehearses a launch, message, offer or price on synthetic personas. Its `experiment` output is the input for this skill's `import`. GrowthLab rehearses; Experiment Coach takes it to the real market.
 
 ## Source material in Growth Marketing OS
 
