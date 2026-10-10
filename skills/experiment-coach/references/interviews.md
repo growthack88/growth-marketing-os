@@ -6,6 +6,8 @@
 - Sources: niche Facebook, WhatsApp and Telegram groups, LinkedIn search, communities around adjacent tools, a small screener ad, people who complain in competitors' reviews.
 - Offer something small and honest for their time (a gift card, early access). Never promise the product.
 - Talk to one segment at a time. Mixed segments blur patterns.
+- Check who pays and who uses it. If they're different people (employer vs. employee, parent vs. child), interview the payer too. Their pain decides the purchase.
+- Don't name your solution or its angle (e.g. "healthy") in the questions. If they bring it up unprompted, write it down. That's signal.
 
 ## 2 · Script — English (20–30 min)
 

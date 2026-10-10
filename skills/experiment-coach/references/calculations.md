@@ -5,14 +5,20 @@ Show every step to the user. Round sample sizes **up**. Write rates as decimals 
 ## 1 · Pass line from unit economics (`passline`)
 
 1. **Max CAC**, the most you can spend to win one paying customer:
-   - subscription: price per month × payback months (× gross margin if costs per user are high)
+   - subscription: price per month × payback months × gross margin
    - one-off product: price × gross margin
+
+   Gross margin matters most for food, physical products and anything with delivery. "Two months of subscription" usually means revenue, and paying CAC out of revenue can lose money. If the margin is unknown, show the revenue-based line, label it *upper bound*, give the formula with margin, and ask for the unit cost.
 2. **Affordable cost per sign-up** = max CAC × expected sign-up→paid rate. That rate is an *assumption* until a pre-sale measures it, so label it.
 3. **Required sign-up rate** = measured CPC ÷ affordable cost per sign-up.
 
 Example: EGP 150/month, 3-month payback → max CAC 450. Guess 10% of sign-ups pay → EGP 45 per sign-up. CPC EGP 3 → 3 ÷ 45 = **6.7%**.
 
-CPC must be **measured** with a small pilot spend. There are no reliable public MENA CPC benchmarks ([benchmarks-used](benchmarks-used.md)).
+The sign-up→paid rate is a guess until a pre-sale measures it, so **always show a sensitivity table** (5% / 10% / 20%, or the user's range). In the example: 13.3% / 6.7% / 3.3%.
+
+**Fail line:** recompute the pass line with the most optimistic sign-up→paid rate the user can defend (e.g. 20%). Below that, the economics fail even in the best case. The **in-between band** is everything between the fail line and the pass line.
+
+CPC must be **measured** with a small pilot spend, then **re-measured on the real test audience** in the first days of the test. If it moves, recompute the lines and note the change in the log before reading results. There are no reliable public MENA CPC benchmarks ([benchmarks-used](benchmarks-used.md)).
 
 ## 2 · Sample to estimate one rate (`precision`)
 
@@ -22,9 +28,11 @@ Example: p = 0.07, m = 0.02 → 3.84 × 0.07 × 0.93 ÷ 0.0004 ≈ **626** (shor
 
 If p is unknown, use 0.5 (the worst case), or run a small pilot first.
 
+**Choosing m:** pick a margin no bigger than half the gap between the pass and fail lines, so the ± range can't cover both lines at once. With pass 8% and fail 4%, m = ±2 points works. With pass 6% and fail 5%, it would need ±0.5 and a far bigger sample, which is a sign the lines are too close to decide with a smoke test.
+
 ## 3 · Budget (`budget`)
 
-Budget = visitors needed × CPC. Not every click becomes a page view, so measure the click → landing-page-view ratio in the pilot and divide by it: budget = visitors ÷ landing ratio × CPC.
+Budget = visitors needed × CPC. Not every click becomes a page view, so measure the click → landing-page-view ratio in the pilot and divide by it: budget = visitors ÷ landing ratio × CPC (`budget --landing-ratio`).
 
 ## 4 · A/B sample size and duration (`ab`)
 

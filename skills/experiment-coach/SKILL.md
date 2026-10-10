@@ -30,7 +30,7 @@ Users can type a command or just describe what they want in Arabic or English. M
 
 | Command | Arabic triggers | What it returns | Load |
 |---|---|---|---|
-| `validate` | اختبر فكرتي · أتأكد قبل ما أبني | Intake → riskiest assumption → the next ladder step with its decision rule | [validation-ladder](references/validation-ladder.md) |
+| `validate` | اختبر فكرتي · أتأكد قبل ما أبني | Intake → desk check → riskiest assumption → the next ladder step in full, with its decision rule | [validation-ladder](references/validation-ladder.md) + the reference for the step it recommends + [calculations](references/calculations.md) if economics are given |
 | `assumption` | إيه أخطر افتراض؟ | Assumption map, the one to test first, and why | [validation-ladder §0](references/validation-ladder.md) |
 | `interview` | سكريبت مقابلات · أسأل العملاء إيه | Recruiting plan + interview script in the user's dialect | [interviews](references/interviews.md) |
 | `synthesize` | لخّص المقابلات | Pattern grid, exact customer phrases, pass/fail vs the rule | [interviews §4](references/interviews.md) |
@@ -52,9 +52,9 @@ Load only what the chosen commands need. Load [mena-notes](references/mena-notes
 
 If the user already gave enough to act on, act first with assumptions stated, and list what's missing at the end. If the basics are missing, ask for them in **one** message (no drip-feeding questions):
 
-1. **What and for whom:** the product/offer, the target customer, the market (country, not just "MENA"), language/dialect.
+1. **What and for whom:** the product/offer, the target customer, **who pays vs. who uses it** (e.g. employee or employer), the market (country, not just "MENA"), language/dialect.
 2. **Stage:** idea · building · launched with few users · launched with steady traffic. This decides pre-launch ladder vs. A/B.
-3. **Economics:** price and model (subscription / one-off / deposit), gross margin or the cost to build/stock, how many months of revenue they'd spend to acquire a customer.
+3. **Economics:** price and model (subscription / one-off / deposit), **cost per unit or gross margin** (always ask for food, physical products and services with delivery cost), the cost to build/stock, how many months of revenue they'd spend to acquire a customer.
 4. **Reach:** the audience they can reach and how (paid, community, existing list), and a budget/time cap.
 5. **What's been tried:** past tests, data, interview notes, a GrowthLab export.
 
@@ -73,12 +73,14 @@ If the user already gave enough to act on, act first with assumptions stated, an
 ## Output contract
 
 - **Verdict first:** one line saying what to do next (continue / change X / stop / run Y), then the reasoning.
+- **Current step in full, later steps short:** write the step the user should do now completely (assets, rule, dates). Summarise conditional later steps in a few lines with their key numbers, and offer the full version when they get there.
 - **Show the maths** for every pass line, sample, budget and readout.
 - **The decision rule in a box** whenever a test is planned:
   > If [metric] ≥ [pass] after [n] by [date] → [next step]. If < [fail] → [stop / change]. In between → [one change], rerun once.
 - **Ready-to-use assets:** interview scripts, page copy, ads and messages are written out in full, in the user's language and dialect (Egyptian, Gulf, Levantine, MSA or English), with platform terms in English (CPC, CTR, A/B).
 - **End with the log entry** (or offer it) so nothing is lost.
-- **Confidence labels:** mark claims *measured* (the user's data), *sourced benchmark* (with source), *assumption* (to be replaced by a test), or *synthetic* (simulation).
+- **Confidence labels:** mark claims *measured* (the user's data), *sourced benchmark* (with source), *assumption* (to be replaced by a test), or *synthetic* (simulation). In Arabic: *مقاس* · *مرجع موثّق* · *افتراض* · *محاكاة*.
+- **Assumed rates get a sensitivity table:** whenever a pass line rests on an assumed rate (usually sign-up → paid), show the result at 5%, 10% and 20% (or a range the user gives), so they see how much the line depends on the guess.
 
 ## Using the calculator
 
@@ -87,6 +89,7 @@ If the user already gave enough to act on, act first with assumptions stated, an
 ```bash
 python3 scripts/exp_calc.py passline --price 150 --payback-months 3 --signup-to-paid 0.10 --cpc 3
 python3 scripts/exp_calc.py precision --p 0.07 --margin 0.02 --cpc 3
+python3 scripts/exp_calc.py budget --visitors 651 --cpc 3 --landing-ratio 0.8
 python3 scripts/exp_calc.py ab --baseline 0.05 --mde 20 --relative --daily-visitors 800
 python3 scripts/exp_calc.py significance --a-conv 29 --a-n 700 --b-conv 54 --b-n 720
 python3 scripts/exp_calc.py srm --a-n 5000 --b-n 5400

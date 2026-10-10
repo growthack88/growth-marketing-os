@@ -150,7 +150,12 @@ def cmd_passline(a):
     print(f"  affordable cost per sign-up = max CAC × sign-up→paid = {cac:,.2f} × {a.signup_to_paid:g} = {cps:,.2f}")
     if req is not None:
         print(f"  required sign-up rate = CPC ÷ cost per sign-up = {a.cpc:g} ÷ {cps:,.2f} = {pct(req)}")
-        print("  Write it into the decision rule BEFORE the test. The sign-up→paid rate is a guess until a pre-sale measures it.")
+        print("  sensitivity (sign-up→paid is a guess until a pre-sale measures it):")
+        for s2p in sorted({0.05, 0.10, 0.20, a.signup_to_paid}):
+            print(f"    {pct(s2p, 0):>4} pay → required sign-up rate {pct(a.cpc / (cac * s2p))}")
+        print("  Fail line: use the most optimistic sign-up→paid rate you can defend. Write both lines into the rule BEFORE the test.")
+        if a.margin is None and a.max_cac is None:
+            print("  ⚠ No --margin given: this line treats revenue as profit (upper bound). Add --margin for food, goods or delivery.")
     else:
         print("  Add --cpc (measure it with a small pilot) to get the required sign-up rate.")
 
@@ -206,7 +211,12 @@ def cmd_srm(a):
 
 def cmd_budget(a):
     print("TRAFFIC BUDGET")
-    print(f"  {a.visitors:,} visitors × CPC {a.cpc:g} = {a.visitors * a.cpc:,.0f}")
+    if not 0 < a.landing_ratio <= 1:
+        sys.exit("--landing-ratio must be between 0 and 1 (e.g. 0.8)")
+    clicks = math.ceil(a.visitors / a.landing_ratio)
+    if a.landing_ratio < 1:
+        print(f"  clicks needed = visitors ÷ landing ratio = {a.visitors:,} ÷ {a.landing_ratio:g} = {clicks:,}")
+    print(f"  {clicks:,} clicks × CPC {a.cpc:g} = {clicks * a.cpc:,.0f}")
 
 
 def cmd_presale(a):
@@ -236,7 +246,7 @@ def main(argv=None):
     s.add_argument("--max-cac", type=float, help="most you can spend per paying customer (skip price/margin)")
     s.add_argument("--price", type=float, help="price per month (subscription) or per order (one-off)")
     s.add_argument("--payback-months", type=float, help="months of revenue you'll spend to acquire a customer")
-    s.add_argument("--margin", type=rate, help="gross margin share, e.g. 0.4 (one-off products)")
+    s.add_argument("--margin", type=rate, help="gross margin share, e.g. 0.4 (strongly advised for food, physical goods, delivery)")
     s.add_argument("--signup-to-paid", type=rate, required=True, help="share of sign-ups expected to pay (a guess until a pre-sale)")
     s.add_argument("--cpc", type=float, help="your measured cost per click")
     s.set_defaults(fn=cmd_passline)
@@ -272,6 +282,7 @@ def main(argv=None):
     s = sub.add_parser("budget", help="paid-traffic cost for a sample")
     s.add_argument("--visitors", type=int, required=True)
     s.add_argument("--cpc", type=float, required=True)
+    s.add_argument("--landing-ratio", type=rate, default=1.0, help="share of clicks that reach the page (measure in the pilot)")
     s.set_defaults(fn=cmd_budget)
 
     s = sub.add_parser("presale", help="pre-sales needed to cover a cost")
