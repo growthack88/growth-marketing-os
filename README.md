@@ -30,7 +30,7 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 
 ## What's inside
 
-**56 original assets**, plus **13 openly licensed community resources** curated in with full attribution.
+**58 original assets**, plus **13 openly licensed community resources** curated in with full attribution.
 
 | Type | Count | Best for |
 |---|---:|---|
@@ -39,8 +39,8 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 | [Agents](agents/) and [GPTs](gpts/) | 2 + 2 | A standing advisor set up once as a system prompt, Project or Custom GPT |
 | [Benchmarks](benchmarks/) | 7 | "Is this number good?" — every figure cited to a named study |
 | [Swipe files](swipe-files/) | 4 | Hooks, subject lines, CTAs and WhatsApp scripts in EN + AR |
-| [Playbooks](playbooks/) and [frameworks](frameworks/) | 2 + 2 | Step-by-step launches and the mental models behind them |
-| [Worked examples](worked-examples/) | 3 | Full decision walkthroughs (fictional scenarios, real benchmark data) |
+| [Playbooks](playbooks/) and [frameworks](frameworks/) | 3 + 2 | Step-by-step launches and the mental models behind them |
+| [Worked examples](worked-examples/) | 4 | Full decision walkthroughs (fictional scenarios, real benchmark data) |
 | [MCP recipes](mcps/) and [workflows](workflows/) | 1 + 1 | Connecting AI to your store and your content pipeline |
 | [Community resources](resources/) | 2 | Vendored tool directory and prompt collection (MIT / CC0) |
 
@@ -48,6 +48,7 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 
 | If you want to… | Open this |
 |---|---|
+| Get real market feedback before you launch | [Pre-Launch Validation Playbook](playbooks/pre-launch-validation-playbook.md) + [Experiment Log template](templates/EXPERIMENT_LOG_TEMPLATE.md) |
 | Get one result in 10 minutes, no setup | [Beginner path](HOW-TO-USE.md#-beginner-path--i-use-chatgptclaude-sometimes-im-not-technical) → [Meta Ads Creative Diagnosis](prompts/paid-ads/meta-ads-creative-diagnosis.md) |
 | Find out why sales dropped | [Funnel Decomposition Analyst](skills/funnel-decomposition/SKILL.md) |
 | Check if a metric is actually bad | [Benchmarks](benchmarks/) + [Benchmark Analyst skill](skills/benchmark-analyst/SKILL.md) |
@@ -187,10 +188,11 @@ Every number is cited to a named study with year and URL, including MENA-specifi
 </details>
 
 <details>
-<summary><b>Playbooks, frameworks and worked examples</b> (7)</summary>
+<summary><b>Playbooks, frameworks and worked examples</b> (9)</summary>
 
 | Asset | Type | Use it when |
 |---|---|---|
+| [Pre-Launch Validation](playbooks/pre-launch-validation-playbook.md) | Playbook | You want real feedback (sign-ups, then money) before building or launching |
 | [Lifetime Deal Launch](playbooks/lifetime-deal-launch-playbook.md) | Playbook | Launching a digital product or SaaS at a founding price |
 | [Shopify Direct-Checkout Offer](playbooks/shopify-direct-checkout-offer-playbook.md) | Playbook | Building landing pages that skip the cart |
 | [COD Profit Funnel](frameworks/cod-profit-funnel.md) | Framework | ROAS looks fine but cash-on-delivery profit doesn't |
@@ -198,6 +200,7 @@ Every number is cited to a named study with year and URL, including MENA-specifi
 | [COD Store ROAS Collapse](worked-examples/cod-store-roas-collapse-turnaround.md) | Worked example | Learning to diagnose a collapsing ad account step by step |
 | [SaaS Trial at 2%](worked-examples/saas-trial-conversion-turnaround.md) | Worked example | Seeing why activation comes before persuasion |
 | [Monetizing an 8K Newsletter](worked-examples/newsletter-monetization-launch.md) | Worked example | Comparing paid tiers, sponsorships and products with real math |
+| [Validating Before Launch](worked-examples/pre-launch-validation-walkthrough.md) | Worked example | Seeing the validation ladder run on one idea, including two "in between" results |
 
 Worked examples are clearly labeled fictional scenarios built on the benchmark data.
 
@@ -244,7 +247,7 @@ growth-marketing-os/
 ├── workflows/        n8n / Make blueprints
 ├── case-studies/     real results (template ready, first entries pending)
 ├── resources/        vendored community resources
-├── templates/        asset and case-study templates for contributors
+├── templates/        asset, case-study and experiment-log templates
 └── llms.txt          machine-readable summary for AI assistants
 ```
 

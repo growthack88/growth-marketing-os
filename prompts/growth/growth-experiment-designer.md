@@ -74,6 +74,8 @@ THEN OUTPUT:
 - [Growth Strategist Agent](../../agents/growth-strategist-agent.md)
 - [Campaign Postmortem](../paid-ads/campaign-postmortem.md)
 - [Funnel Decomposition Skill](../../skills/funnel-decomposition/SKILL.md)
+- [Pre-Launch Validation Playbook](../../playbooks/pre-launch-validation-playbook.md): use it before you have the traffic this prompt assumes
+- [Experiment Log template](../../templates/EXPERIMENT_LOG_TEMPLATE.md): record every hypothesis, decision rule and result
 <!-- MO-BRAND-FOOTER v1 — paste at the bottom of every asset file -->
 
 ---

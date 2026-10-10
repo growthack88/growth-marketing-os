@@ -30,7 +30,7 @@
 
 ## ماذا ستجد هنا
 
-في الريبو **56 أصلًا أصليًا**، ومعها **13 موردًا من المجتمع** مرخّصة ترخيصًا مفتوحًا ومضافة مع ذكر مصادرها كاملة.
+في الريبو **58 أصلًا أصليًا**، ومعها **13 موردًا من المجتمع** مرخّصة ترخيصًا مفتوحًا ومضافة مع ذكر مصادرها كاملة.
 
 | النوع | العدد | يناسب |
 |---|:---:|---|
@@ -39,8 +39,8 @@
 | [الوكلاء](agents/) و[الـ GPTs](gpts/) | 2 + 2 | مستشار دائم تجهّزه مرة واحدة كـ System Prompt أو Project أو Custom GPT |
 | [الأرقام المرجعية](benchmarks/) | 7 | سؤال "هل هذا الرقم جيد؟"، وكل رقم منسوب لدراسة باسمها |
 | [ملفات الإلهام (Swipe Files)](swipe-files/) | 4 | افتتاحيات وعناوين إيميل وعبارات CTA ورسائل واتساب بالعربي والإنجليزي |
-| [الأدلة العملية](playbooks/) و[الأطر](frameworks/) | 2 + 2 | خطوات إطلاق عملية، والنماذج الذهنية التي تقف خلفها |
-| [أمثلة تطبيقية](worked-examples/) | 3 | شرح كامل لمسار القرار (سيناريوهات افتراضية بأرقام مرجعية حقيقية) |
+| [الأدلة العملية](playbooks/) و[الأطر](frameworks/) | 3 + 2 | خطوات إطلاق عملية، والنماذج الذهنية التي تقف خلفها |
+| [أمثلة تطبيقية](worked-examples/) | 4 | شرح كامل لمسار القرار (سيناريوهات افتراضية بأرقام مرجعية حقيقية) |
 | [وصفات MCP](mcps/) و[الأتمتة](workflows/) | 1 + 1 | ربط الذكاء الاصطناعي بمتجرك وبخط إنتاج المحتوى |
 | [موارد المجتمع](resources/) | 2 | دليل أدوات ومجموعة برومبتات منقولة بترخيصها (MIT / CC0) |
 
@@ -48,6 +48,7 @@
 
 | لو عايز… | افتح |
 |---|---|
+| تاخد رأي السوق الحقيقي قبل ما تطلق | [دليل التحقق قبل الإطلاق](playbooks/pre-launch-validation-playbook.md) + [قالب سجل التجارب](templates/EXPERIMENT_LOG_TEMPLATE.md) |
 | نتيجة واحدة في 10 دقائق من غير أي إعداد | [مسار المبتدئين](HOW-TO-USE.md#-beginner-path--i-use-chatgptclaude-sometimes-im-not-technical) ← [Meta Ads Creative Diagnosis](prompts/paid-ads/meta-ads-creative-diagnosis.md) |
 | تعرف ليه المبيعات نزلت | [Funnel Decomposition Analyst](skills/funnel-decomposition/SKILL.md) |
 | تتأكد إن الرقم سيئ فعلًا | [الأرقام المرجعية](benchmarks/) + [Benchmark Analyst](skills/benchmark-analyst/SKILL.md) |
@@ -193,10 +194,11 @@
 </details>
 
 <details>
-<summary><b>الأدلة العملية والأطر والأمثلة التطبيقية</b> (7)</summary>
+<summary><b>الأدلة العملية والأطر والأمثلة التطبيقية</b> (9)</summary>
 
 | الأصل | النوع | استخدمه لما |
 |---|---|---|
+| [Pre-Launch Validation](playbooks/pre-launch-validation-playbook.md) | دليل عملي | عايز رأي حقيقي (تسجيلات وبعدها فلوس) قبل ما تبني أو تطلق، والدليل بالعربي والإنجليزي |
 | [Lifetime Deal Launch](playbooks/lifetime-deal-launch-playbook.md) | دليل عملي | تطلق منتج رقمي أو SaaS بسعر المؤسسين |
 | [Shopify Direct-Checkout Offer](playbooks/shopify-direct-checkout-offer-playbook.md) | دليل عملي | تبني صفحات هبوط بتتخطى السلة |
 | [COD Profit Funnel](frameworks/cod-profit-funnel.md) | إطار | الـ ROAS شكله كويس بس ربح الدفع عند الاستلام لأ |
@@ -204,6 +206,7 @@
 | [COD Store ROAS Collapse](worked-examples/cod-store-roas-collapse-turnaround.md) | مثال تطبيقي | تتعلم تشخّص حساب إعلانات بينهار خطوة بخطوة |
 | [SaaS Trial at 2%](worked-examples/saas-trial-conversion-turnaround.md) | مثال تطبيقي | تفهم ليه التفعيل قبل الإقناع |
 | [Monetizing an 8K Newsletter](worked-examples/newsletter-monetization-launch.md) | مثال تطبيقي | تقارن بين الاشتراك المدفوع والرعاية والمنتجات بالحسابات |
+| [Validating Before Launch](worked-examples/pre-launch-validation-walkthrough.md) | مثال تطبيقي | تشوف خطوات التحقق شغالة على فكرة واحدة، ومعاها نتيجتين "في النص" |
 
 الأمثلة التطبيقية سيناريوهات افتراضية، ومكتوب عليها كده بوضوح، ومبنية على أرقام مرجعية حقيقية.
 
@@ -252,7 +255,7 @@ growth-marketing-os/
 ├── workflows/        n8n / Make blueprints
 ├── case-studies/     real results (template ready, first entries pending)
 ├── resources/        vendored community resources
-├── templates/        asset and case-study templates
+├── templates/        asset, case-study and experiment-log templates
 └── llms.txt          machine-readable summary for AI assistants
 ```
 
