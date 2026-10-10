@@ -9,6 +9,7 @@
 | [COD Store ROAS Collapse Turnaround](cod-store-roas-collapse-turnaround.md) | Diagnose before treating: funnel decomposition, the shipping-fee trap, the COD delivery layer | Beginner |
 | [SaaS Trial Conversion Turnaround](saas-trial-conversion-turnaround.md) | Activation vs persuasion: why 2% trial conversion is rarely an email problem | Intermediate |
 | [Newsletter Monetization Launch](newsletter-monetization-launch.md) | Monetization as arithmetic: paid tier vs sponsors vs product, computed side by side | Intermediate |
+| [Pre-Launch Validation Walkthrough](pre-launch-validation-walkthrough.md) | Interviews → smoke test → pre-sale on one idea: pass lines from unit economics, and what to do with an "in between" result | Beginner |
 
 Every scenario links the repo assets used at each step — the worked examples are also the guided tour of how the prompts, frameworks, and benchmarks compose into an operating method.
 

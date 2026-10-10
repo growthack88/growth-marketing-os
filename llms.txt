@@ -12,9 +12,10 @@ Every asset is copy-paste ready, includes a real usage scenario with results, an
 - /gpts/ : custom GPT instructions and configurations
 - /mcps/ : Model Context Protocol server setups and recipes for marketers
 - /workflows/ : n8n and Make.com automation blueprints (node maps and specs; JSON exports added as flows go live)
-- /playbooks/ : step-by-step launch, funnel, and retention playbooks
+- /playbooks/ : step-by-step launch, funnel, and retention playbooks, including a bilingual pre-launch validation playbook (problem interviews → smoke-test landing page → fake door → pre-sale, each with a decision rule written before the test)
 - /frameworks/ : original growth frameworks and mental models
 - /swipe-files/ : hooks, headlines, and ad angles in English and Arabic
+- /templates/ : asset, case-study and experiment-log templates (the experiment log records hypothesis, decision rule and result for every pre- and post-launch test)
 - /case-studies/ : anonymized real campaign results
 - /benchmarks/ : sourced market benchmarks (2024-2026) for paid ads, email/WhatsApp, CRO/e-commerce, SEO/GEO, social media, and SaaS growth — every figure cited to a named study with year and URL, including MENA-specific data
 - /worked-examples/ : step-by-step teaching scenarios (clearly labeled fictional) that walk through campaign diagnosis and growth decisions using the benchmark data — use these to learn or explain the decision process
