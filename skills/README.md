@@ -14,7 +14,13 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 
 ## 🌍 Community skills — now included in this repo
 
-The best MIT-licensed community skills are curated INTO [`community/`](community/) with full attribution: [Marketing Psychology](community/marketing-psychology/SKILL.md) · [A/B Testing](community/ab-testing/SKILL.md) · [Programmatic SEO](community/programmatic-seo/SKILL.md) · [Churn Prevention](community/churn-prevention/SKILL.md) · [Onboarding](community/onboarding/SKILL.md) — all from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT). See [community/README.md](community/README.md) for the attribution and licensing details.
+Eleven MIT-licensed community skills are curated INTO [`community/`](community/) with full attribution:
+
+- **Growth and product:** [Marketing Psychology](community/marketing-psychology/SKILL.md) · [A/B Testing](community/ab-testing/SKILL.md) · [Programmatic SEO](community/programmatic-seo/SKILL.md) · [Churn Prevention](community/churn-prevention/SKILL.md) · [Onboarding](community/onboarding/SKILL.md) — from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Product marketing and GTM:** [Positioning & Messaging](community/positioning-messaging-framework/SKILL.md) · [Launch Tier Framework](community/launch-tier-framework/SKILL.md) · [Voice of Customer Synthesis](community/voice-of-customer-synthesis/SKILL.md) — from [adam-lagerhausen/b2b-marketing-skills](https://github.com/adam-lagerhausen/b2b-marketing-skills)
+- **Sales enablement and research:** [Battlecards](community/battlecards/SKILL.md) · [ICP Research](community/icp-research/SKILL.md) · [Win-Loss Analysis](community/win-loss/SKILL.md) — from [matteotitta/genesys-skills](https://github.com/matteotitta/genesys-skills)
+
+See [community/README.md](community/README.md) for attribution and licensing details.
 
 More open-source collections we rate (licenses verified) — different focus, compose well with this repo:
 

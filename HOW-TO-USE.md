@@ -89,4 +89,4 @@ Every bilingual asset has native Egyptian Arabic versions — not translations. 
 
 **English or Arabic?** Both. Check the `language` field in each file's frontmatter. Bilingual assets carry native AR versions.
 
-**How often do new assets drop?** Weekly. Star + watch the repo, or get them first via [mahmoudomar.com](https://mahmoudomar.com) and [YouTube — Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1).
+**How often do new assets drop?** In batches, when they've been used on real work — there's no fixed schedule. Watch the repo (Releases or All Activity) to get notified, or follow along via [mahmoudomar.com](https://mahmoudomar.com) and [YouTube — Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1).
