@@ -9,7 +9,7 @@
 **مكتبة مفتوحة المصدر لأدوات التسويق بالذكاء الاصطناعي: برومبتات، Claude Skills، وكلاء، أدلة عملية (Playbooks) وأرقام مرجعية موثّقة، بالعربي والإنجليزي.**
 بناها ويستخدمها [محمود عمر](https://mahmoudomar.com) في حسابات حقيقية للتجارة الإلكترونية والـ SaaS وتوليد العملاء في مصر والخليج والأسواق العالمية.
 
-[English](README.md) · [طريقة الاستخدام](HOW-TO-USE.md) · [كتالوج الأصول](#كتالوج-الأصول) · [مركز قيادة الإعلانات](#مركز-قيادة-الإعلانات) · [المساهمة](CONTRIBUTING.md) · [رخصة MIT](LICENSE)
+[طريقة الاستخدام](HOW-TO-USE.md) · [كتالوج الأصول](#كتالوج-الأصول) · [مركز قيادة الإعلانات](#مركز-قيادة-الإعلانات) · [المساهمة](CONTRIBUTING.md) · [رخصة MIT](LICENSE) · [English](README.md)
 
 </div>
 
@@ -289,7 +289,7 @@ growth-marketing-os/
 
 **محمود عمر**: Growth Cofounder وFractional Head of Growth لشركات في مصر والخليج وMENA، ومؤسس Read to Lead.
 
-[mahmoudomar.com](https://mahmoudomar.com) · [يوتيوب: Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1) · [ماكينة النمو (Building Growth Machine)](https://buildinggrowthmachine.com) · [Growth OS: 17 أداة نمو](https://growthduckup.com) · [StartupKit Pro](https://startupkit.pro) · [DuckDoro](https://duckdoro.com)
+الموقع: [mahmoudomar.com](https://mahmoudomar.com) · [يوتيوب: Growth Hack Academy](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1) · [ماكينة النمو (Building Growth Machine)](https://buildinggrowthmachine.com) · [Growth OS: 17 أداة نمو](https://growthduckup.com) · [StartupKit Pro](https://startupkit.pro) · [DuckDoro](https://duckdoro.com)
 
 لو الريبو وفّر عليك وقت، النجمة ⭐ بتساعد مسوقين تانيين يلاقوه.
 
