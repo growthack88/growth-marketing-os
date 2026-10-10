@@ -9,7 +9,7 @@ Built and used by [Mahmoud Omar](https://mahmoudomar.com) on real e-commerce, Sa
 
 <p dir="rtl">مكتبة مفتوحة المصدر لأدوات التسويق بالذكاء الاصطناعي: برومبتات، Skills، وكلاء، Playbooks وأرقام مرجعية موثّقة، بالعربي والإنجليزي.</p>
 
-[How to use](HOW-TO-USE.md) · [Asset catalog](#asset-catalog) · [MENA Ads plugin](#featured-mena-ads-command-center) · [Contributing](CONTRIBUTING.md) · [MIT License](LICENSE)
+[العربية](README.ar.md) · [How to use](HOW-TO-USE.md) · [Asset catalog](#asset-catalog) · [MENA Ads plugin](#featured-mena-ads-command-center) · [Contributing](CONTRIBUTING.md) · [MIT License](LICENSE)
 
 </div>
 
