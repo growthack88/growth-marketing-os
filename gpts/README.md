@@ -5,6 +5,7 @@ Original, battle-tested assets. Every file follows the [master template](../temp
 | Custom GPT | What it does | Level |
 |---|---|---|
 | [MENA Ads GPT](mena-ads-gpt.md) | The MENA Ads Command Center for ChatGPT / Gemini Gems: scored ad audits, scale/kill calls, Arabic ad copy, COD real ROAS | Intermediate |
+| [Experiment Coach GPT](experiment-coach-gpt.md) | Experiment Coach for ChatGPT / Gemini Gems: validate ideas, pass lines, sample sizes, A/B readouts, experiment log | Beginner |
 | [Growth Strategist GPT](growth-strategist-gpt.md) | Complete GPT Builder config: systems-first growth advisor with knowledge-file strategy | Beginner |
 
 Maintained by [Mahmoud Omar](https://mahmoudomar.com) · [Growth Hack Academy on YouTube](https://www.youtube.com/@GrowthHackAcademy?sub_confirmation=1)
